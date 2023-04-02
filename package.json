@@ -9,7 +9,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.2"
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   },
   "dependencies": {
     "@grapecity/wijmo.vue2.all": "^5.20222.877"
