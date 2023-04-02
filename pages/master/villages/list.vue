@@ -1,5 +1,7 @@
+<script setup lang="ts">
+import { mdiAbTesting } from "@mdi/js";
+</script>
+
 <template>
-  <div>
-    <VBtn color="primary">Vuetify のボタン</VBtn>
-  </div>
+  <VIcon :icon="mdiAbTesting" />
 </template>

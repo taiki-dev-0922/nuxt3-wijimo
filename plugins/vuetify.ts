@@ -1,4 +1,5 @@
 import { createVuetify } from "vuetify";
+import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
 import {
   MAIN_THEME,
   mainTheme,
@@ -6,7 +7,6 @@ import {
   mainDarkTheme,
 } from "@/helpers/themes";
 import { defaults } from "@/helpers/defaults";
-import "@mdi/font/css/materialdesignicons.css"; // 使用するアイコンを読み込む `mdi-xxx`
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
@@ -14,6 +14,13 @@ export default defineNuxtPlugin((nuxtApp) => {
     defaults,
     display: {
       mobileBreakpoint: "sm",
+    },
+    icons: {
+      defaultSet: "mdi",
+      aliases,
+      sets: {
+        mdi,
+      },
     },
     // add theme
     theme: {
