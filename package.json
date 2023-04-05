@@ -18,6 +18,7 @@
     "vuetify": "^3.1.4"
   },
   "dependencies": {
-    "@grapecity/wijmo.vue2.all": "^5.20222.877"
+    "@grapecity/wijmo.vue2.all": "^5.20222.877",
+    "bootstrap": "^5.2.3"
   }
 }
