@@ -18,5 +18,5 @@ export default defineNuxtConfig({
       "process.env.DEBUG": false,
     },
   },
-  css: ["@/assets/main.scss"],
+  css: ["@/assets/main.scss", "bootstrap/dist/css/bootstrap.min.css"],
 });
